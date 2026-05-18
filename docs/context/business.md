@@ -27,21 +27,36 @@
 
 ## Business model (Q2)
 
-<!-- TODO: What we sell, who we sell to (segments, primary first), how we make
-money, current pricing. -->
-
-- **What we sell:** TODO
-- **Customer segments (primary first):** TODO
-- **How we make money:** TODO
-- **Current pricing:** TODO
+- **What we sell:** A subscription consumer app, published natively on the
+  **Apple App Store** and **Google Play** (converted from the current free web
+  PWA prototype). Login-based personalization and additional languages are
+  in-scope product work for the sellable version.
+- **Customer segments (primary first):**
+  1. **Primary:** German-speaking adults learning *any* language (B2C / private
+     users, not business). Spanish-for-travel is the proven prototype wedge into
+     this segment.
+  2. **Later expansion:** other source languages / learner types.
+- **How we make money:** Recurring auto-renewing subscription billed through
+  the App Store and Google Play (platform IAP, ~15–30% store fee applies).
+- **Current pricing:** **€0.99 / month** subscription. _Hypothesis — to be
+  validated; very low for the category, low LTV after store fees. Flagged in
+  [Open questions](#open-questions)._
 
 ## Value proposition
 
-<!-- TODO: One sharp sentence — the promise to the primary segment. -->
+> A personalized, travel-ready language app for German speakers — speak and
+> remember faster with pronunciation feedback and spaced repetition, in any
+> language you need — for under €1 a month.
 
-TODO
+_Note: "any language" is a launch requirement, not a prototype capability — the
+prototype is Spanish-only. This makes multi-language a gating dependency for the
+sellable product (see [bottlenecks.md](./bottlenecks.md))._
 
 ## Open questions
 
 - Final product/brand name (prototype is internally "Spanisch lernen").
 - How far "personalized" goes at launch vs. the SM-2-only prototype today.
+- **Pricing risk:** €0.99/mo minus ~15–30% store fees ≈ €0.70–0.84 net/user/mo.
+  Validate against CAC; consider annual plan / higher tier / intro pricing.
+- Segment is "any language" but prototype is Spanish-only — multi-language is a
+  launch gate, not a nice-to-have.

@@ -7,14 +7,23 @@
 
 ## Identity (Q1)
 
-<!-- TODO: The company — name, product, industry, stage, website + repo. -->
+- **Name:** Spanisch lernen (working title; prototype brand). Productized goal: a
+  personalized language-learning app — see [Open questions](#open-questions) re: final brand.
+- **Product:** A mobile-first PWA that helps German speakers learn Spanish for
+  travel. Vocabulary training (multiple-choice, typing, speaking, flashcards),
+  mini-dialogues, German-language grammar lessons, TTS audio, Web Speech API
+  pronunciation checking, SM-2 spaced repetition, Firestore sync with Google
+  login, offline-installable.
+- **Industry:** Consumer edtech — language learning.
+- **Stage:** Working prototype, pre-launch, pre-revenue. Built with Claude Code,
+  deployed to Google Cloud (Firebase Hosting).
+- **Website:** https://language-learning-app-22bea.web.app (live prototype)
+- **Repo:** https://github.com/klausludemann/language-learning-app
 
-- **Name:** TODO
-- **Product:** TODO
-- **Industry:** TODO
-- **Stage:** TODO
-- **Website:** TODO
-- **Repo:** TODO
+> The product vision is *personalized* language learning. The prototype's
+> personalization today is limited to SM-2 spaced repetition + topic choice;
+> deeper personalization (level, interests, pace, adaptive path) is roadmap, not
+> shipped. Tracked in [vision-and-strategy.md](./vision-and-strategy.md).
 
 ## Business model (Q2)
 
@@ -34,6 +43,5 @@ TODO
 
 ## Open questions
 
-<!-- One line per item you're still unsure about. -->
-
-- TODO
+- Final product/brand name (prototype is internally "Spanisch lernen").
+- How far "personalized" goes at launch vs. the SM-2-only prototype today.
